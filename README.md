@@ -16,8 +16,10 @@ npm install
 - Launch Tidal
 - `cd ORCA2Tidal && node index.js`
 - in ORCA:  
-    use the UDP Operator `;` with `PARAM_NAME.VALUE`, for example: `4;p1.5` -> in Tidal `(cI 10 "p1")`  
-    can also send float value params by adding `f`, for example: `5;p1.5f` -> in Tidal `(cF 1 "p1")`
+    - use the UDP Operator `;` followed by the name of your Tidal parameter and its value (`PARAM_NAME.VALUE`):  
+    `...4;p1.5...` -> in Tidal `(cI 10 "p1")`  
+    - can also send float value params by adding `f`:  
+    `...5;p1.5f...` -> in Tidal `(cF 1 "p1")`
 
 
 ### Based on:
