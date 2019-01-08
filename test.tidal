@@ -1,0 +1,2 @@
+d1 $ sound "drum" # speed (cF 1 "p1") # gain "4"
+d1 silence
