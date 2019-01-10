@@ -3,9 +3,7 @@ NodeJS utility to convert [ORCA](https://wiki.xxiivv.com/#orca)'s UDP Output to 
 
 Depends on [OSC.js](https://www.npmjs.com/package/osc)
 
-**NEED GOOD EXAMPLES**
-
-
+**NEED GOOD EXAMPLES**: Contributors welcome :)
 
 ### Installation
 ```
@@ -13,7 +11,6 @@ git clone https://github.com/MAKIO135/ORCA2Tidal.git
 cd ORCA2Tidal
 npm install
 ```
-
 
 ### Usage
 - Launch Tidal

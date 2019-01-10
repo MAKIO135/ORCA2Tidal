@@ -1,0 +1,3 @@
+d1 $ sound "drum*8" # n (cF 1 "a") # speed (cF 1 "b")
+
+d1 silence
