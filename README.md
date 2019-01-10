@@ -3,6 +3,9 @@ NodeJS utility to convert [ORCA](https://wiki.xxiivv.com/#orca)'s UDP Output to 
 
 Depends on [OSC.js](https://www.npmjs.com/package/osc)
 
+**NEED GOOD EXAMPLES**
+
+
 
 ### Installation
 ```
@@ -16,10 +19,10 @@ npm install
 - Launch Tidal
 - `cd ORCA2Tidal && node index.js`
 - in ORCA:  
-    - use the UDP Operator `;` followed by the name of your Tidal parameter and its value (`PARAM_NAME.VALUE`):  
-    `...4;p1.5...` -> in Tidal `(cI 10 "p1")`  
-    - can also send float value params by adding `f`:  
-    `...5;p1.5f...` -> in Tidal `(cF 1 "p1")`
+    - use the UDP Operator `;` followed by the name of your Tidal parameter, followed by its type and its value (`KEY.TYPE.VALUE`):  
+    `...7;a.i.64...` -> in Tidal `(cI 10 "a")`  
+    `...8;b.s.fast...` -> in Tidal `(cS "slow" "b")`  
+    `...6;c.f.5...` -> in Tidal `(cF 1 "c")` (**float values are divided by 10** -> `a = 0.5`)
 
 
 ### Based on:

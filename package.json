@@ -1,12 +1,12 @@
 {
   "name": "orca2tidal",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Sends ORCA's UDP messages to TidalCylces as OSC",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Makio135",
   "license": "ISC",
   "dependencies": {
     "osc": "^2.2.4"

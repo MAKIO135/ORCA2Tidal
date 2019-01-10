@@ -22,11 +22,14 @@ server.on( 'error', err => {
 
 server.on( 'message', ( msg, rinfo ) => {
     console.log( `server got: ${ msg }` )
+    
+    // msg has to be formatted like that:
+    // KEY.TYPE.VALUE
 
     const split = ( '' + msg ).split( '.' )
     const key = split[ 0 ]
-    const type = split[ 1 ].includes( 'f' ) ? 'f' : 'i'
-    const value = type === 'f' ? parseInt( split[ 1 ] ) / 10 : split[ 1 ]
+    const type = split[ 1 ]
+    const value = type === 'f' ? parseInt( split[ 2 ] ) / 10 : split[ 2 ]
     const newMsg = {
         address: `/ctrl`,
         args: [
