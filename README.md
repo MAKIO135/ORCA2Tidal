@@ -1,9 +1,10 @@
 # ORCA2Tidal
+
+## Deprecated: OSC now integrated in [ORCA](https://github.com/hundredrabbits/Orca)
+
 NodeJS utility to convert [ORCA](https://wiki.xxiivv.com/#orca)'s UDP Output to OSC messages for [Tidal](https://tidalcycles.org/index.php/Welcome)
 
 Depends on [OSC.js](https://www.npmjs.com/package/osc)
-
-**NEED GOOD EXAMPLES**: Contributors welcome :)
 
 ### Installation
 ```
