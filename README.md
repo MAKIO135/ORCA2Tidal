@@ -1,6 +1,9 @@
-# ORCA2Tidal
+# ORCΛ2Tidal
 
-NodeJS utility to convert [ORCA](https://wiki.xxiivv.com/#orca)'s UDP Output to OSC messages for [Tidal](https://tidalcycles.org/index.php/Welcome)
+**Deprecated: Use [Λioi](https://github.com/MAKIO135/aioi) instead**
+====================================
+
+NodeJS utility to convert [ORCΛ](https://wiki.xxiivv.com/#orca)'s UDP Output to OSC messages for [Tidal](https://tidalcycles.org/index.php/Welcome)
 
 Depends on [OSC.js](https://www.npmjs.com/package/osc)
 
@@ -22,7 +25,7 @@ npm install
 
 
 ### Based on:
-- [ORCA - UDP Output](https://github.com/hundredrabbits/Orca#midi-output)  
+- [ORCΛ - UDP Output](https://github.com/hundredrabbits/Orca#midi-output)  
     > The [UDP](https://nodejs.org/api/dgram.html#dgram_socket_send_msg_offset_length_port_address_callback) operator `;`, takes one haste input that is a string length and locks the eastwardly ports. It sends the message on bang to the port `49160`. You can use the [listener.js](https://github.com/hundredrabbits/Orca/blob/master/listener.js) to test UDP messages. See it in action with [udp.orca](https://github.com/hundredrabbits/Orca/blob/master/examples/_udp.orca).
 - [Tidal - Controller Input](https://tidalcycles.org/index.php/Controller_Input)  
     > With version 1.0.0 installed and configured, then by default Tidal will automatically listen for external control messages over the OSC (Open Sound Control) network protocol, on localhost (127.0.0.1), port 6010.
